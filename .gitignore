@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/logs
 lerna-debug.log
 npm-debug.log
 packages/*/lib

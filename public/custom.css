@@ -1,0 +1,174 @@
+.homeBgImage {
+  background-image: url(/assets/images/f118f85c06dc252c1beda2149f9235b0@3x.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.no-padding {
+  padding: 0
+}
+
+/* body {
+  background-color: white;
+  color: black;
+  font-family: 'helvetica';
+  font-size: 1.6rem;
+  --webkit-appearance: none;
+} */
+
+.img {
+  background-image: url("nc_assets/banner.jpg");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.img-holder {
+  margin-top: 100px
+}
+
+.content {
+  margin: auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.m-t-30 {
+  margin-top: 150px
+}
+
+.m-t-50 {
+  margin-top: 250px
+}
+
+.m-t-70 {
+  margin-top: 70px
+}
+
+.p-30 {
+  padding: 30px
+}
+
+.form-group-default {
+  background-color: inherit
+}
+
+.demo-story-block {
+  height: 80%;
+}
+
+.text-black {
+  color: black
+}
+
+.bg-master-darkest {
+  background-color: black;
+}
+
+.form-group-default {
+  border: none
+}
+
+.form-group-default .form-control {
+  border-bottom: 1px solid white;
+  padding-left: 10px;
+}
+
+.form-group-default .form-control.black {
+  border-bottom: 1px solid black;
+  padding-left: 10px;
+}
+
+.focused {
+  color: black;
+  background-color: inherit;
+}
+
+.vh-70 {
+  height: 70vh;
+}
+
+.bg-master-white {
+  background-color: white
+}
+
+input {
+  width: 70%;
+  border: 1px solid black;
+  padding: 12px;
+  font-size: 14px;
+  font-family: 'helvetica';
+  line-height: initial;
+  --webkit-appearance: none;
+  --webkit-border-radius: 0
+}
+
+input[type=text] {
+  --webkit-border-radius: 0px
+}
+
+input[type=email] {
+  --webkit-border-radius: 0px
+}
+
+button {
+  min-width: 100px;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  font-size: 14px;
+  padding: 12px;
+  font-family: 'helvetica';
+  line-height: initial;
+}
+
+h1 {
+  font-family: 'times new roman';
+  font-size: 2.4rem;
+  font-weight: 100;
+}
+
+small {
+  font-family: 'helvetica';
+  font-size: 60%;
+}
+
+button:focus, input:focus {
+  outline: none
+}
+
+.f-w-100 {
+  font-weight: 100;
+}
+
+@media only screen and (max-device-width: 500px) {
+  .m-t-50 {
+    margin-top: 40px
+  }
+  .m-t-70 {
+    margin-top: 45px
+  }
+  .img {
+    height: 350px;
+  }
+  button {
+    min-width: 55px;
+    padding: 12px;
+    font-size: 13px;
+  }
+  input {
+    width: 68%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 2.4rem;
+  }
+  small {
+    font-size: 48%;
+  }
+}
