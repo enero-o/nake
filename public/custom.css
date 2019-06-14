@@ -30,6 +30,14 @@
   margin-top: 100px
 }
 
+.logo-hr {
+  width: 40%;
+  display: inline-block;
+  border: 0.6px solid black;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .content {
   margin: auto 0;
   display: flex;
@@ -53,8 +61,21 @@
   padding: 30px
 }
 
+.p-50 {
+  padding: 50px
+}
+
 .form-group-default {
   background-color: inherit
+}
+
+.fa {
+  font-size: 25px
+}
+
+h6 {
+  font-size: 13px;
+  line-height: 1.4
 }
 
 .demo-story-block {
