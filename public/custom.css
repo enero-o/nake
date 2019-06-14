@@ -73,6 +73,22 @@
   border: none
 }
 
+.btn-primary, .btn-primary:focus {
+  background-color: transparent;
+  border-color: white
+}
+
+.btn-primary, .btn-primary {
+  background-color: transparent;
+  border-color: white
+}
+
+.btn-primary:hover {
+  background-color: white;
+  border-color: white;
+  color: black
+}
+
 .form-group-default .form-control {
   border-bottom: 1px solid white;
   padding-left: 10px;
@@ -100,7 +116,7 @@
   padding-top: 80px;
 }
 
-.header.dark{
+.header.dark {
   background-color: black
 }
 
