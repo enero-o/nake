@@ -96,6 +96,14 @@
   background-color: white
 }
 
+.p-t-80 {
+  padding-top: 80px;
+}
+
+.header.dark{
+  background-color: black
+}
+
 input {
   width: 70%;
   border: 1px solid black;
