@@ -4996,7 +4996,7 @@ fieldset[disabled] .form-control {
   opacity: 1;
 }
 .form-group-default.focused {
-  border-color: rgba(0, 0, 0, 0.1) !important;
+  border-color: rgba(0, 0, 0, 0.1);
   background-color: #f0f0f0;
 }
 .form-group-default.focused label {

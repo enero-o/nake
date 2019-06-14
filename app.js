@@ -42,8 +42,8 @@ app.use('/', Router);
  * - Create 404 error
  */
 // catch 404 and forward to error handler
-app.use((req, res, next) => {
-  res.status(404).render('Error404');
+app.use((req, res) => {
+  res.status(404).render('notFound');
 });
 
 app.use((error, req, res) => {
