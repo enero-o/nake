@@ -73,9 +73,23 @@
   font-size: 25px
 }
 
+.gallery {
+  background-color: black
+}
+
 h6 {
-  font-size: 13px;
-  line-height: 1.4
+  font-size: 12.5px;
+  line-height: 1.5
+}
+
+.form-group-default.focused {
+  background-color: inherit;
+}
+
+.exploreMoreBtn {
+  color: black;
+  background-color: transparent;
+  border: 0.6px solid black
 }
 
 .demo-story-block {
@@ -121,12 +135,24 @@ h6 {
 }
 
 .focused {
-  color: black;
+  color: white;
   background-color: inherit;
+}
+
+.form-control {
+  color: white;
+}
+
+.form-control.black {
+  color: black;
 }
 
 .vh-70 {
   height: 70vh;
+}
+
+.vh-60 {
+  height: 60vh;
 }
 
 .bg-master-white {
@@ -215,5 +241,17 @@ button:focus, input:focus {
   }
   small {
     font-size: 48%;
+  }
+  .p-50 {
+    padding: 5px
+  }
+  .logo-hr {
+    width: 24%;
+  }
+  .homeBgImage {
+    height: 300px;
+  }
+  .m-t-30 {
+    margin-top: 10px
   }
 }
