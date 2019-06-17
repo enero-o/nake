@@ -10,7 +10,7 @@
   padding: 0
 }
 
-body, .block-title, .btn, h6, h5, .jumbotron p {
+body, .block-title, .btn, h6, h5, .jumbotron p, .header .menu>li>a {
   font-family: 'helvetica';
 }
 
