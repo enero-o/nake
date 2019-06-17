@@ -124,6 +124,11 @@ h6 {
   color: black
 }
 
+.btn {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+}
+
 .form-group-default .form-control {
   border-bottom: 1px solid white;
   padding-left: 10px;
