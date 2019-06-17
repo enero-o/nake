@@ -267,4 +267,7 @@ button:focus, input:focus {
   .m-t-30 {
     margin-top: 10px
   }
+  .demo-story-block {
+    height: 100%;
+  }
 }
