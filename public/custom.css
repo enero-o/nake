@@ -90,6 +90,11 @@ h6 {
   background-color: inherit;
 }
 
+.block-title {
+  font-size: 21px;
+  margin-bottom: 10px
+}
+
 .exploreMoreBtn {
   color: black;
   background-color: transparent;
@@ -131,6 +136,12 @@ h6 {
 .btn {
   border-radius: 0;
   -webkit-border-radius: 0;
+}
+
+.inner .btn {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
 }
 
 .form-group-default .form-control {
