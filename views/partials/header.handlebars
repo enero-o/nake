@@ -6,8 +6,12 @@
       <!-- .header-inner Allows to vertically Align elements to the Center-->
       <div class="header-inner">
         <!-- BEGIN LOGO -->
-        <img src="/assets/images/Logo@3x.png" width="120" height="40"
-          data-src-retina="assets/images/Logo@3x.png" alt="">
+        <a href="/">
+          <img src="/assets/images/Logo@3x.png" width="120" height="40"
+            data-src-retina="assets/images/Logo@3x.png"
+            alt="Nakenohs Boulevard">
+        </a>
+
       </div>
     </div>
     <!-- BEGIN HEADER TOGGLE FOR MOBILE & TABLET -->
@@ -39,7 +43,7 @@
       <div class="header-inner">
         <ul class="menu">
           <li>
-            <a href="/shops" data-text="Home" class="active">Shops </a>
+            <a href="/shops" data-text="Home" class={{shopIsActive}}>Shops </a>
           </li>
           {{!-- <li class="horizontal">
             <a href="javascript:;" data-text="Elements">
@@ -82,13 +86,16 @@
             </nav>
           </li> --}}
           <li>
-            <a href="/events" data-text="Pricing">Events </a>
+            <a href="/events" data-text="Pricing"
+              class={{eventsIsActive}}>Events </a>
           </li>
           <li>
-            <a href="/offers" data-text="Portfolio">Offers </a>
+            <a href="/offers" data-text="Portfolio"
+              class={{offersIsActive}}>Offers </a>
           </li>
           <li>
-            <a href="/gallery" data-text="Contact">Gallery </a>
+            <a href="/gallery" data-text="Contact"
+              class={{galleryIsActive}}>Gallery </a>
           </li>
           {{!-- <li>
             <a class="btn btn-bordered fs-12 btn-white hidden-sm hidden-xs"

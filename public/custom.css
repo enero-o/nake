@@ -10,6 +10,10 @@
   padding: 0
 }
 
+body, .block-title, .btn, h6, h5, .jumbotron p, .header .menu>li>a {
+  font-family: 'helvetica';
+}
+
 /* body {
   background-color: white;
   color: black;
@@ -28,6 +32,14 @@
 
 .img-holder {
   margin-top: 100px
+}
+
+.logo-hr {
+  width: 40%;
+  display: inline-block;
+  border: 0.6px solid black;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .content {
@@ -53,8 +65,41 @@
   padding: 30px
 }
 
+.p-50 {
+  padding: 50px
+}
+
 .form-group-default {
   background-color: inherit
+}
+
+.fa {
+  font-size: 25px
+}
+
+.gallery {
+  background-color: black
+}
+
+h6 {
+  font-size: 12.8px;
+  line-height: 1.5;
+  letter-spacing: 0.7px;
+}
+
+.form-group-default.focused {
+  background-color: inherit;
+}
+
+.block-title {
+  font-size: 21px;
+  margin-bottom: 10px
+}
+
+.exploreMoreBtn {
+  color: black;
+  background-color: transparent;
+  border: 0.6px solid black
 }
 
 .demo-story-block {
@@ -73,6 +118,33 @@
   border: none
 }
 
+.btn-primary, .btn-primary:focus {
+  background-color: transparent;
+  border-color: white
+}
+
+.btn-primary, .btn-primary {
+  background-color: transparent;
+  border-color: white
+}
+
+.btn-primary:hover {
+  background-color: white;
+  border-color: white;
+  color: black
+}
+
+.btn {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+}
+
+.inner .btn {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+}
+
 .form-group-default .form-control {
   border-bottom: 1px solid white;
   padding-left: 10px;
@@ -84,16 +156,36 @@
 }
 
 .focused {
-  color: black;
+  color: white;
   background-color: inherit;
+}
+
+.form-control {
+  color: white;
+}
+
+.form-control.black {
+  color: black;
 }
 
 .vh-70 {
   height: 70vh;
 }
 
+.vh-60 {
+  height: 60vh;
+}
+
 .bg-master-white {
   background-color: white
+}
+
+.p-t-80 {
+  padding-top: 80px;
+}
+
+.header.dark {
+  background-color: black
 }
 
 input {
@@ -130,6 +222,10 @@ h1 {
   font-family: 'times new roman';
   font-size: 2.4rem;
   font-weight: 100;
+}
+
+.m-t-85 {
+  margin-top: 85px
 }
 
 small {
@@ -170,5 +266,20 @@ button:focus, input:focus {
   }
   small {
     font-size: 48%;
+  }
+  .p-50 {
+    padding: 5px
+  }
+  .logo-hr {
+    width: 24%;
+  }
+  .homeBgImage {
+    height: 300px;
+  }
+  .m-t-30 {
+    margin-top: 10px
+  }
+  .demo-story-block {
+    height: 100%;
   }
 }
