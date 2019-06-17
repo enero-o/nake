@@ -10,7 +10,7 @@
   padding: 0
 }
 
-body, .block-title, .btn, .header .menu>li>a, h6, h5, .jumbotron p {
+body, .block-title, .btn, h6, h5, .jumbotron p {
   font-family: 'helvetica';
 }
 
@@ -83,7 +83,8 @@ body, .block-title, .btn, .header .menu>li>a, h6, h5, .jumbotron p {
 
 h6 {
   font-size: 12.8px;
-  line-height: 1.4
+  line-height: 1.5;
+  letter-spacing: 0.7px;
 }
 
 .form-group-default.focused {
