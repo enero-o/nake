@@ -10,7 +10,11 @@
   padding: 0
 }
 
-body, .btn, h6, h5, .jumbotron p, .header .menu>li>a {
+body, .btn, h1, h2, h3, h4, h5, h6, label, .jumbotron p, .header .menu>li>a {
+  font-family: 'helvetica';
+}
+
+.form-group label:not(.error) {
   font-family: 'helvetica';
 }
 
@@ -25,6 +29,10 @@ body, .btn, h6, h5, .jumbotron p, .header .menu>li>a {
   font-size: 1.6rem;
   --webkit-appearance: none;
 } */
+
+.swiper-slide {
+  background-color: black;
+}
 
 .img {
   background-image: url("nc_assets/banner.jpg");
