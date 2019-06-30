@@ -10,8 +10,20 @@
   padding: 0
 }
 
-body, .block-title, .btn, h6, h5, .jumbotron p, .header .menu>li>a {
+.center-bg{
+  background-position: center
+}
+
+body, .btn, h1, h2, h3, h4, h5, h6, label, .jumbotron p, .header .menu>li>a {
   font-family: 'helvetica';
+}
+
+.form-group label:not(.error) {
+  font-family: 'helvetica';
+}
+
+.block-title {
+  font-family: 'times new roman';
 }
 
 /* body {
@@ -21,6 +33,10 @@ body, .block-title, .btn, h6, h5, .jumbotron p, .header .menu>li>a {
   font-size: 1.6rem;
   --webkit-appearance: none;
 } */
+
+.swiper-slide {
+  background-color: black;
+}
 
 .img {
   background-image: url("nc_assets/banner.jpg");
@@ -262,7 +278,7 @@ button:focus, input:focus {
     font-size: 16px;
   }
   h1 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
   small {
     font-size: 48%;
@@ -281,5 +297,11 @@ button:focus, input:focus {
   }
   .demo-story-block {
     height: 100%;
+  }
+  .center-bg{
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 32vh !important;
   }
 }
