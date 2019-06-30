@@ -10,6 +10,10 @@
   padding: 0
 }
 
+.center-bg{
+  background-position: center
+}
+
 body, .btn, h1, h2, h3, h4, h5, h6, label, .jumbotron p, .header .menu>li>a {
   font-family: 'helvetica';
 }
@@ -293,5 +297,8 @@ button:focus, input:focus {
   }
   .demo-story-block {
     height: 100%;
+  }
+  .center-bg{
+    background-position: left
   }
 }
