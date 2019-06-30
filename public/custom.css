@@ -299,6 +299,9 @@ button:focus, input:focus {
     height: 100%;
   }
   .center-bg{
-    background-position: left
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 32vh !important;
   }
 }
