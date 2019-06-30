@@ -10,7 +10,7 @@
   padding: 0
 }
 
-.center-bg{
+.center-bg {
   background-position: center
 }
 
@@ -36,6 +36,7 @@ body, .btn, h1, h2, h3, h4, h5, h6, label, .jumbotron p, .header .menu>li>a {
 
 .swiper-slide {
   background-color: black;
+  background-position: center;
 }
 
 .img {
@@ -298,10 +299,14 @@ button:focus, input:focus {
   .demo-story-block {
     height: 100%;
   }
-  .center-bg{
+  .center-bg {
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
     height: 32vh !important;
+  }
+  .swiper-slide {
+    background-size: cover;
+    background-repeat: no-repeat
   }
 }
