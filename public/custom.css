@@ -258,6 +258,25 @@ button:focus, input:focus {
   font-weight: 100;
 }
 
+.mapouter {
+  position: relative;
+  text-align: left;
+  height: 400px;
+  width: 500px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 400px;
+  width: 550px;
+}
+
+#gmap {
+  height: 450px;
+  width: 550px;
+}
+
 @media only screen and (max-device-width: 500px) {
   .m-t-50 {
     margin-top: 40px
@@ -308,5 +327,9 @@ button:focus, input:focus {
   .swiper-slide {
     background-size: cover;
     background-repeat: no-repeat
+  }
+  #gmap {
+    height: 400px;
+    width: 370px;
   }
 }
