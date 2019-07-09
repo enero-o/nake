@@ -12,4 +12,6 @@ router.get('/shops', (req, res) => res.render('shops', { shopIsActive: 'active',
 
 router.get('/events', (req, res) => res.render('events', { eventsIsActive: 'active', title: 'Events' }));
 
+router.get('/editorial', (req, res) => res.render('editorial', { editorialIsActive: 'active', title: 'Editorialss' }));
+
 module.exports = router;
