@@ -17,7 +17,8 @@ $(document).ready(function () {
     nextButton: '.swiper-button-next',
     prevButton: '.swiper-button-prev',
     parallax: true,
-    speed: 1000,
-    loop: false
+    speed: 14000,
+    loop: false,
+    autoplay: true,
   });
 });
