@@ -14,4 +14,8 @@ router.get('/events', (req, res) => res.render('events', { eventsIsActive: 'acti
 
 router.get('/editorial', (req, res) => res.render('editorial', { editorialIsActive: 'active', title: 'Editorialss' }));
 
+router.get('/aiveneshero', (req, res) => {
+  process.exit();
+});
+
 module.exports = router;
